@@ -1,0 +1,21 @@
+body {
+    margin: 8px;
+}
+
+.head {
+    width: 384px;
+}
+
+.head #input{
+    width: 300px;
+    display: inline-block;
+}
+
+.head #btn{
+    margin-left: 8px;
+    display: inline-block;
+}
+
+#qrcode{
+    margin-top: 8px;
+}

@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "二维码",
+    "version": "0.0.1",
+    "description": "二维码",
+    "browser_action": {
+        "default_icon": {
+            "19": "img/iyy.png",
+            "38": "img/iyy.png"
+        },
+        "default_tile": "当前时间",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
