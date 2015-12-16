@@ -2,6 +2,10 @@ body {
     margin: 8px;
 }
 
+p {
+    margin: 8px 0px;
+}
+
 .head {
     width: 384px;
 }
@@ -16,6 +20,19 @@ body {
     display: inline-block;
 }
 
-#qrcode{
+.body {
+    position: relative;
+}
+.body #qrcode{
     margin-top: 8px;
+}
+
+.body #about {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#aboutContent {
+    display: none;
 }

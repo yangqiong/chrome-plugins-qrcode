@@ -25,3 +25,14 @@ $btn.onclick = function(){
     qrcode.makeCode($input.value);
 }
 
+// 附属
+var $about = document.getElementById("about");
+var $aboutContent = document.getElementById("aboutContent");
+$about.onclick = function(event){
+    if ($aboutContent.style.display == "none"){
+        $aboutContent.style.display = "block";
+    } else {
+        $aboutContent.style.display = "none";
+    }
+}
+

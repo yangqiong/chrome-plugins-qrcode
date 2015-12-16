@@ -8,10 +8,19 @@
 
 <body>
     <div class="head">
-        <input id="input" type="text" style="width:300px;">
-        <button id="btn" style="40px;">手动生成</button>
+        <input id="input" type="text">
+        <button id="btn">手动生成</button>
     </div>
-    <div id="qrcode"></div>
+    <div class="body">
+        <div id="qrcode"></div>
+        <span id="about">关于</span>
+    </div>
+    <div id="aboutContent">
+        <p>github: https://github.com/yangqiong/chrome-plugins-qrcode</p>
+        <p>感谢: http://davidshimjs.github.io/qrcodejs/</p>
+    </div>
+    
+
     <script type="text/javascript" src="js/qrcode.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
